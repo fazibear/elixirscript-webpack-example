@@ -1,6 +1,7 @@
 import 'babel-polyfill';
 
-import calc from './calc';
+import * as calc from './calc';
+
+console.log(calc.add(1,2));
 
 console.log('just test');
-
