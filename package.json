@@ -1,0 +1,19 @@
+{
+  "name": "elixirscripttest",
+  "version": "0.0.0",
+  "description": "Convert Elixir to JavaScript",
+  "main": "index.js",
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "webpack": "*",
+    "babel": "*",
+    "babel-polyfill": "*",
+    "babel-core": "*",
+    "babel-loader": "*",
+    "babel-preset-es2015": "*",
+    "elixirscript": "*",
+    "elixirscript-loader": "*"
+  }
+}
+
