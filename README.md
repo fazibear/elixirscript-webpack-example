@@ -1,5 +1,9 @@
 # elixirscript webpack example
 
+## requirements
+
+- Erlang installed !
+
 ## usage
 
 ```
