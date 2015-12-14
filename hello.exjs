@@ -1,7 +1,7 @@
 defmodule Hello do
   def html do
-      rootNode = VDom.create(render())
-      document.body.appendChild(rootNode)
+    rootNode = VDom.create(render())
+    document.body.appendChild(rootNode)
   end
 
   def render() do
