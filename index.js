@@ -1,7 +1,5 @@
-import 'babel-polyfill';
+import * as Hello from './hello';
 
-import * as calc from './calc';
-
-console.log(calc.add(1,2));
-
-console.log('just test');
+document.addEventListener("DOMContentLoaded", function(event) {
+  Hello.html()
+});

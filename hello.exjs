@@ -1,0 +1,19 @@
+defmodule Hello do
+  def html do
+      rootNode = VDom.create(render())
+      document.body.appendChild(rootNode)
+  end
+
+  def render() do
+    Html.div do
+      [
+        Html.h1 do
+          "Hello from ElixirScript"
+        end,
+        Html.p do
+          "Lorem ipsum ..."
+        end
+      ]
+    end
+  end
+end

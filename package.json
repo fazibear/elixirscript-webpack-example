@@ -7,13 +7,15 @@
   "license": "MIT",
   "dependencies": {
     "webpack": "*",
+    "webpack-dev-server": "*",
+
     "babel": "*",
     "babel-polyfill": "*",
     "babel-core": "*",
     "babel-loader": "*",
     "babel-preset-es2015": "*",
+
     "elixirscript": "*",
     "elixirscript-loader": "*"
   }
 }
-
